@@ -1,0 +1,10 @@
+{
+  "sqlServerName": "MYDI_SQL_SERVER",
+  "sqlPort": "MYDI_SQL_PORT",
+  "sqlDBName": "MYDI_SQL_DB",
+  "sqlUserId": "MYDI_SQL_USER",
+  "sqlPassword": "MYDI_SQL_PASSWORD",
+  "dataFolder": "MYDI_DATA_FOLDER",
+  "archiveFolder": "MYDI_ARCHIVE_FOLDER",
+  "logFolder": "MYDI_LOG_FOLDER"
+}
