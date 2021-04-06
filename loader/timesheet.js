@@ -7,7 +7,7 @@ const movefile = require('../utility/movefile')
 
 const sourceDir = config.get('dataFolder')
 const archiveDir = config.get('archiveFolder')
-const fileName = sourceDir + "/Time_Compliance_Report.xlsx"
+const fileName = sourceDir + "/Time_Compliance_Report.xls"
 
 module.exports = async function (sequelize) {
   const wb = xlsx.readFile(fileName, {cellDates: true})
