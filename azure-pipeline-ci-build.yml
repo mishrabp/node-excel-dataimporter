@@ -22,6 +22,6 @@ steps:
   inputs:
     containerRegistry: 'docker-azure-registry-private'
     repository: 'nodeexceldataimporter'
-    command: 'buildAndPush'
+    command: 'build'
     Dockerfile: '**/Dockerfile'
     tags: 'latest'
