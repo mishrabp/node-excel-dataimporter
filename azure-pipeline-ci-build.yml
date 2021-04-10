@@ -10,7 +10,7 @@ trigger:
 
 pool:
   name: "MyBuildAgents"
-  vmImage: ubuntu-latest
+  vmImage: "ubuntu-latest"
 
 steps:
 - task: NodeTool@0
