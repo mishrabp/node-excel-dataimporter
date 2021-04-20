@@ -27,7 +27,7 @@ var bRunning = false
 setInterval(async ()=> {
   //time = 60000
   if (!bRunning && bConnection) {
-    console.log('Importer wakes u................');
+    logger.info('Importer wakes u................');
     bRunning = true 
     if(Fs.existsSync(Path.join("./data", "ESO Incident - Open - SLA Breached Listing (90 Days).xls"))){
       logger.info('load SLA data..............')
@@ -40,7 +40,7 @@ setInterval(async ()=> {
       logger.info('loading complete.')
     }
     bRunning = false
-    console.log('Importer going to sleep..........')
+    logger.info('Importer going to sleep..........')
   }
   else {
     logger.warn('a job is already in progress. or db connection is not established')
